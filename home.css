@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-container{
+    background-color:#f0f8ff;
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.image-logo{
+    height: 9vh;
+    width: 6vw;
+    margin-left: 4%;
+}
+span{
+    color:rgb(206, 91, 49);
+}
+span:hover{
+    color: #2e5caf;
+}
+#navbar-design{
+    color:black;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-style:inherit;
+}
+#navbar-design:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100vh; 
+    width: auto; 
+    object-fit: cover; 
+}
+.custom-navbar {
+    background-color:#f0f8ff; /* Custom color */
+}
+.coursel-caption-heading{
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.carousel-caption-para{
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.main-heading{
+    color:black;
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+/* card container design */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.card-custom {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+ 
+  }
+  
+  .card-custom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card-text{
+    color: #2e5caf;
+    text-align: left;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .button-design{
+    background-color: #2e5caf;
+    color:aliceblue;
+    padding:2%;
+    margin: 2%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .button-design:hover{
+    background-color:black;
+    color: aliceblue;
+  }
+
+
+  .Description{
+    margin: 20px;
+    padding: 20px;
+    color:#000000;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .card-container2{
+    height:80vh;
+    width: 60vw;
+    background-color:#2e5caf;
+    margin: 4%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+  }
+  .flex-container2{
+    display: flex;
+    flex-direction:column;
+    align-items:end;
+  }
+  img{
+    height: 58vh;
+    width: 45vw;
+    margin-bottom: 2%;
+  }
+  .card-container3{
+    height:80vh;
+    width: 60vw;
+    background-color:rgb(221, 105, 63);
+    margin: 4%;
+  }
+  p{
+    color: #f0f8ff;
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+.para-card{
+    color:#000000;
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.image-container{
+  display: flex;
+  flex-direction: row;
+}
+.coursel-down-image1{
+  height:50vh;
+  width: 40vw;
+  margin-top:4%;
+  margin-left:4%;
+  border-bottom-left-radius:4%;
+  border-bottom-right-radius:4%;
+  border-bottom:solid 5px #2e5caf;
+}
+.image-container-heading{
+  font-size:40px;
+  margin-top:8%;
+  margin-left:8%;
+}
+.image-container-para{
+  color: #000000;
+  font-size:20px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-left:6%;
+  margin-right: 2%;
+  line-height: 1.6;
+}
+
+
